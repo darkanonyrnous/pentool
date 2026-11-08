@@ -19,7 +19,7 @@ import threading
 import time
 import urllib.parse
 import random
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 import requests
@@ -492,7 +492,7 @@ class WebScanner:
 
             if acao == "*":
                 self._add_vuln("medium","CORS: Wildcard Origin", self.target,
-                               "Origin","*", f"ACAO: *",
+                               "Origin","*", "ACAO: *",
                                "Har qanday origin so'rovlariga javob qaytarmoqda.",
                                "CORS whitelist'ini faqat ishonchli originlarga cheklang.")
                 break

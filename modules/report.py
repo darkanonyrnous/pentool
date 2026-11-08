@@ -9,7 +9,6 @@ Yaxshilanishlar:
   - Timeline va statistika
 """
 
-import json
 from datetime import datetime
 from rich.console import Console
 
