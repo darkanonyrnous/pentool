@@ -134,7 +134,6 @@ SSTI_PAYLOADS = [
     ("{{7*'7'}}",         "jinja2",        "7777777"),
     ("${7*'7'}",          "groovy",        "49"),
     # RCE probe (safe — faqat matematik)
-    ("{{config}}",        "jinja2-info",   "config"),
     ("%{{7*7}}",          "java-el",       "49"),
     ("*{7*7}",            "spring-spel",   "49"),
     ("@(7*7)",            "razor",         "49"),
