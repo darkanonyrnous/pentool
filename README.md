@@ -1,4 +1,4 @@
-# 🛡️ PenTool v2.0 — Professional Web Pentest & OSINT Framework
+# PenTool v2.0 — Web Pentest & OSINT Framework
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python" />
@@ -53,7 +53,7 @@
 | **Cookie Flags** | HttpOnly, Secure, SameSite tekshirish |
 
 ### 📊 Hisobot
-- **HTML** — Professional dark-theme hisobot, CVSS score, risk matrix
+- **HTML** — Dark-theme hisobot, CVSS score, risk matrix
 - **TXT** — Executive summary + texnik batafsil
 - **JSON** — Raw natija (boshqa toollar bilan integratsiya uchun)
 
@@ -261,5 +261,5 @@ MIT License — batafsil [LICENSE](LICENSE) faylida.
 ---
 
 <p align="center">
-  <strong>PenTool v2.0</strong> · Made with ❤️ for learning & ethical hacking
+  <strong>PenTool v2.0</strong> · For learning & ethical hacking
 </p>
